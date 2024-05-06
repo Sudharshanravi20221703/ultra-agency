@@ -25,7 +25,7 @@ const Hero = () => {
     <section className={styles.hero} ref={heroRef}>
       <div className={styles.hero__top}>
         <div data-menu-item data-hidden>
-          <Logo />
+          SDGP
         </div>
         <span data-menu-item data-hidden>
           about
@@ -37,25 +37,15 @@ const Hero = () => {
 
       <h1 className={styles.hero__title}>
         <span data-hidden data-title-first>
-          Ultra
+          SDGP
         </span>
         <span data-hero-line className={styles.hero__line}></span>
         <span data-hidden data-title-last>
-          agency
+          Projects
         </span>
       </h1>
 
-      <div className={styles.hero__image}>
-        <div data-image-overlay className={styles.hero__imageOverlay}></div>
-        <Image
-          data-image
-          src="/images/blob.jpg"
-          width={1728}
-          height={650}
-          alt="Blob"
-          style={{ objectFit: "cover" }}
-        />
-      </div>
+
     </section>
   );
 };
